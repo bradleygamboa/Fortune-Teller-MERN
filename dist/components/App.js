@@ -51,23 +51,23 @@ var App = function (_Component) {
         ),
         _react2.default.createElement(
           'footer',
-          { className: 'text-center' },
+          { className: 'navbar-fixed-bottom text-center' },
           _react2.default.createElement(
             'a',
-            { href: 'http://www.bradleygamboa.me' },
-            'Portfolio'
+            { target: '_blank', href: 'http://www.bradleygamboa.me' },
+            _react2.default.createElement('i', { className: 'fa fa-user-circle fa-lg', 'aria-hidden': 'true' })
           ),
           '\xA0',
           _react2.default.createElement(
             'a',
-            { href: 'http://www.github.com/bradleygamboa' },
-            'GitHub'
+            { target: '_blank', href: 'http://www.github.com/bradleygamboa' },
+            _react2.default.createElement('i', { className: 'fa fa-github-square fa-lg', 'aria-hidden': 'true' })
           ),
           '\xA0',
           _react2.default.createElement(
             'a',
-            { href: 'http://www.linkedin.com/in/bradleygamboa' },
-            'Linkedin'
+            { target: '_blank', href: 'http://www.linkedin.com/in/bradleygamboa' },
+            _react2.default.createElement('i', { className: 'fa fa-linkedin-square fa-lg', 'aria-hidden': 'true' })
           )
         )
       );

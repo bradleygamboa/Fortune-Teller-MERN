@@ -1,12 +1,13 @@
 # Fortune Teller MERN
 
 ### Development:
-#### Before you begin make sure you have an [Mlab](https://mlab.com/welcome/) account, node is installed, and gulp is installed globally.
+#### Before you begin make sure you have an [Mlab](https://mlab.com/welcome/)
+#### Also make sure gulp and nodemon are installed globally.
 
 1. Clone repo
 2. Open your terminal and navigate to the project directory
 3. Go to: api > data > db.js and add your Mlab connection url in line 3.
-4. To start the development server type: $ nodemon
+4. To start the development server type: $ npm start
 5. Open a new terminal tab in the same directory (command + t) and type: $ gulp
 6. Open your browser and go to localhost:8000
 7. The development server is live, now you can code your react application in the src directory, gulp will listen for changes and transpile and bundle your code and nodemon will serve the files to the browser.

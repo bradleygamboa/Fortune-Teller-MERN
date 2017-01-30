@@ -16,10 +16,10 @@ export default class App extends Component {
         <BookList />
     </div>
 
-    <footer className="text-center">
-        <a href="http://www.bradleygamboa.me">Portfolio</a>&nbsp;
-        <a href="http://www.github.com/bradleygamboa">GitHub</a>&nbsp;
-        <a href="http://www.linkedin.com/in/bradleygamboa">Linkedin</a>
+    <footer className="navbar-fixed-bottom text-center">
+        <a target="_blank" href="http://www.bradleygamboa.me"><i className="fa fa-user-circle fa-lg" aria-hidden="true"></i></a>&nbsp;
+        <a target="_blank" href="http://www.github.com/bradleygamboa"><i className="fa fa-github-square fa-lg" aria-hidden="true"></i></a>&nbsp;
+        <a target="_blank" href="http://www.linkedin.com/in/bradleygamboa"><i className="fa fa-linkedin-square fa-lg" aria-hidden="true"></i></a>
     </footer>
 
     </div>
