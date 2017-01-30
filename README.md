@@ -16,4 +16,4 @@
 ![gulp-logo gulp-logo](http://opbeat.com/docs/static/images/stacks/logo_express.svg)
 ![gulp-logo gulp-logo](https://camo.githubusercontent.com/f28b5bc7822f1b7bb28a96d8d09e7d79169248fc/687474703a2f2f692e696d6775722e636f6d2f4a65567164514d2e706e67)
 ![gulp-logo gulp-logo](http://blog.mlab.com/wp-content/uploads/2016/02/mLab-logo-onlight-300x129.png)
-![gulp-logo gulp-logo](https://jeanlescure.io/img/logo-node.png)
+![gulp-logo gulp-logo](https://upload.wikimedia.org/wikipedia/commons/7/7e/Node.js_logo_2015.svg)
