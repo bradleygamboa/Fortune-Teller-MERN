@@ -28,7 +28,6 @@ class BookList extends Component {
         </ul>
         <p>{this.props.activeBook ? this.props.activeBook.title : "Choose A Star To Learn Your Destiny" } </p>
       </div>
-
     );
   }
 }

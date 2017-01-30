@@ -1,6 +1,6 @@
 var mongoose = require('mongoose');
 
-var dbUrl = 'mongodb://bradleygamboa:texas@ds131729.mlab.com:31729/fortuneteller';
+var dbUrl = 'mongodb://bradley:gamboa@ds137139.mlab.com:37139/heroku_6k95mcbr';
 mongoose.connect(dbUrl);
 
 

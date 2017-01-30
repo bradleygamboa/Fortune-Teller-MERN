@@ -11,10 +11,14 @@ export default class App extends Component {
     return (
     <div>
     <header className="text-center">Zoltar Speaks</header>
-    
-    <div className="jumbotron text-center">
-        <BookList />
-    </div>
+
+        <div className="jumbotron text-center">
+            <BookList />
+        </div>
+
+        <div className="text-center">
+            <iframe width="530" height="285" src="https://www.youtube.com/embed/uigpbM983dg" frameBorder="0" allowFullScreen></iframe>
+        </div>
 
     <footer className="navbar-fixed-bottom text-center">
         <a target="_blank" href="http://www.bradleygamboa.me"><i className="fa fa-user-circle fa-lg" aria-hidden="true"></i></a>&nbsp;

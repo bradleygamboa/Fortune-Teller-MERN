@@ -5,39 +5,33 @@
     /*URL to font*/
 }
 header{
-	font-size: 88px;
+	font-size: 80px;
 	font-family: "FortuneTeller";
-	color: #fefe34;
+	color: #ffe400;
     -webkit-text-stroke-width: 5px;
     -webkit-text-stroke-color: black;
 }
 body{
-	background-color: #fefe34;
+	background-color: #ffe400;
 
 }
 p{
 	font-family: "FortuneTeller";
 	-webkit-text-stroke-width: .25px;
-    -webkit-text-stroke-color: #fefe34;
+    -webkit-text-stroke-color: #ffe400;
 
 }
 i{
 	color: black;
 }
 
-
-footer{
-	height: 50px;
-}
-
 li{
 	opacity: 0.0;
 }
 .jumbotron{
-	/*background-color: white;*/
-	background-image: url("https://m.popkey.co/c93dca/VeRae.gif");
-	background-size: 100% auto;
+	background-image: url("https://media.giphy.com/media/fV5FG8TpqGcso/giphy.gif");
 	color: white;
+	margin-bottom: 5px;
 }
 
 .embed-container {
