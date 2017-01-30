@@ -26,7 +26,7 @@ class BookList extends Component {
         <ul className="collection">
           {this.renderList()}
         </ul>
-        <p>{this.props.activeBook ? this.props.activeBook.title : "Choose A Star To Learn Your Destiny" } </p>
+        <p>{this.props.activeBook ? this.props.activeBook.title : "Choose A Star To See Your Future" } </p>
       </div>
     );
   }

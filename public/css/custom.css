@@ -4,13 +4,14 @@
     src: url("../fonts/UNICORN_REGULAR.TTF");
     /*URL to font*/
 }
+
 header{
 	font-size: 80px;
 	font-family: "FortuneTeller";
 	color: #ffe400;
-    -webkit-text-stroke-width: 5px;
-    -webkit-text-stroke-color: black;
+    background-image: url("https://media.giphy.com/media/fV5FG8TpqGcso/giphy.gif");
 }
+
 body{
 	background-color: #ffe400;
 	background-image: url("http://www.videoamusement.com/wp-content/uploads/2014/09/zoltar-fortune-ticket-detail.jpg");
@@ -18,10 +19,9 @@ body{
 }
 p{
 	font-family: "FortuneTeller";
-/*	-webkit-text-stroke-width: .25px;
-    -webkit-text-stroke-color: #ffe400;*/
-
+	color: red;
 }
+
 i{
 	color: black;
 }
@@ -29,9 +29,9 @@ i{
 li{
 	opacity: 0.0;
 }
+
 .jumbotron{
 	background-image: url("https://media.giphy.com/media/fV5FG8TpqGcso/giphy.gif");
-	color: white;
 	margin-bottom: 5px;
 }
 

@@ -62,7 +62,7 @@ var BookList = function (_Component) {
         _react2.default.createElement(
           'p',
           null,
-          this.props.activeBook ? this.props.activeBook.title : "Choose A Star To Learn Your Destiny",
+          this.props.activeBook ? this.props.activeBook.title : "Choose A Star To See Your Future",
           ' '
         )
       );
