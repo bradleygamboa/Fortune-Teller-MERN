@@ -66,8 +66,7 @@ var BookList = function (_Component) {
         _react2.default.createElement(
           'p',
           null,
-          'Active book: ',
-          this.props.activeBook ? this.props.activeBook.title : "Nothing Selected",
+          this.props.activeBook ? this.props.activeBook.title : "Click Above To Make Zoltar Speak",
           ' '
         )
       );

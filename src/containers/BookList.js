@@ -26,7 +26,7 @@ class BookList extends Component {
         <ul className="collection">
           {this.renderList()}
         </ul>
-        <p>Active book: {this.props.activeBook ? this.props.activeBook.title : "Nothing Selected" } </p>
+        <p>{this.props.activeBook ? this.props.activeBook.title : "Click Above To Make Zoltar Speak" } </p>
       </div>
 
     );
