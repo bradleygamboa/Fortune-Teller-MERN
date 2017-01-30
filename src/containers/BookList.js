@@ -14,7 +14,7 @@ class BookList extends Component {
         key={book.title}
         onClick={ () => this.props.selectBook(book) }
         >
-          {book.title}
+          {/*book.title*/}
         </li>
 
       )
@@ -26,7 +26,7 @@ class BookList extends Component {
         <ul className="collection">
           {this.renderList()}
         </ul>
-        <p>{this.props.activeBook ? this.props.activeBook.title : "Click Above To Make Zoltar Speak" } </p>
+        <p>{this.props.activeBook ? this.props.activeBook.title : "Choose A Star To Learn Your Destiny" } </p>
       </div>
 
     );

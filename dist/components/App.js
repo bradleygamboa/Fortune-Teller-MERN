@@ -41,17 +41,17 @@ var App = function (_Component) {
         null,
         _react2.default.createElement(
           'header',
-          null,
+          { className: 'text-center' },
           'Zoltar Speaks'
         ),
         _react2.default.createElement(
           'div',
-          { className: 'jumbotron' },
+          { className: 'jumbotron text-center' },
           _react2.default.createElement(_BookList2.default, null)
         ),
         _react2.default.createElement(
           'footer',
-          null,
+          { className: 'text-center' },
           _react2.default.createElement(
             'a',
             { href: 'http://www.bradleygamboa.me' },

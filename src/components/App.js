@@ -10,13 +10,13 @@ export default class App extends Component {
   render() {
     return (
     <div>
-    <header>Zoltar Speaks</header>
+    <header className="text-center">Zoltar Speaks</header>
     
-    <div className="jumbotron">
+    <div className="jumbotron text-center">
         <BookList />
     </div>
 
-    <footer>
+    <footer className="text-center">
         <a href="http://www.bradleygamboa.me">Portfolio</a>&nbsp;
         <a href="http://www.github.com/bradleygamboa">GitHub</a>&nbsp;
         <a href="http://www.linkedin.com/in/bradleygamboa">Linkedin</a>

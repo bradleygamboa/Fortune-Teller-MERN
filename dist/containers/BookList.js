@@ -39,17 +39,13 @@ var BookList = function (_Component) {
       var _this2 = this;
 
       return this.props.books.map(function (book) {
-        return _react2.default.createElement(
-          'li',
-          {
-            className: 'collection-item',
-            key: book.title,
-            onClick: function onClick() {
-              return _this2.props.selectBook(book);
-            }
-          },
-          book.title
-        );
+        return _react2.default.createElement('li', {
+          className: 'collection-item',
+          key: book.title,
+          onClick: function onClick() {
+            return _this2.props.selectBook(book);
+          }
+        });
       });
     }
   }, {
@@ -66,7 +62,7 @@ var BookList = function (_Component) {
         _react2.default.createElement(
           'p',
           null,
-          this.props.activeBook ? this.props.activeBook.title : "Click Above To Make Zoltar Speak",
+          this.props.activeBook ? this.props.activeBook.title : "Choose A Star To Learn Your Destiny",
           ' '
         )
       );
