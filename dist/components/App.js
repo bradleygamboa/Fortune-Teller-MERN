@@ -52,7 +52,11 @@ var App = function (_Component) {
                 _react2.default.createElement(
                     'div',
                     { className: 'text-center' },
-                    _react2.default.createElement('iframe', { width: '530', height: '285', src: 'https://www.youtube.com/embed/uigpbM983dg', frameBorder: '0', allowFullScreen: true })
+                    _react2.default.createElement('iframe', { width: '378', height: '270', src: 'https://www.youtube.com/embed/uigpbM983dg', frameBorder: '0', allowFullScreen: true }),
+                    '\xA0',
+                    _react2.default.createElement('iframe', { width: '377', height: '270', src: 'https://www.youtube.com/embed/FQ0sHPD5JMg', frameBorder: '0', allowFullScreen: true }),
+                    '\xA0',
+                    _react2.default.createElement('iframe', { width: '377', height: '270', src: 'https://www.youtube.com/embed/YOKGJvLENqI', frameBorder: '0', allowFullScreen: true })
                 ),
                 _react2.default.createElement(
                     'footer',

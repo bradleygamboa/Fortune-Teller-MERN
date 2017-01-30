@@ -13,12 +13,13 @@ header{
 }
 body{
 	background-color: #ffe400;
+	background-image: url("http://www.videoamusement.com/wp-content/uploads/2014/09/zoltar-fortune-ticket-detail.jpg");
 
 }
 p{
 	font-family: "FortuneTeller";
-	-webkit-text-stroke-width: .25px;
-    -webkit-text-stroke-color: #ffe400;
+/*	-webkit-text-stroke-width: .25px;
+    -webkit-text-stroke-color: #ffe400;*/
 
 }
 i{

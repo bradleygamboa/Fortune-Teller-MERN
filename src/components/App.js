@@ -17,7 +17,9 @@ export default class App extends Component {
         </div>
 
         <div className="text-center">
-            <iframe width="530" height="285" src="https://www.youtube.com/embed/uigpbM983dg" frameBorder="0" allowFullScreen></iframe>
+            <iframe width="378" height="270" src="https://www.youtube.com/embed/uigpbM983dg" frameBorder="0" allowFullScreen></iframe>&nbsp;
+            <iframe width="377" height="270" src="https://www.youtube.com/embed/FQ0sHPD5JMg" frameBorder="0" allowFullScreen></iframe>&nbsp;
+            <iframe width="377" height="270" src="https://www.youtube.com/embed/YOKGJvLENqI" frameBorder="0" allowFullScreen></iframe>
         </div>
 
     <footer className="navbar-fixed-bottom text-center">
