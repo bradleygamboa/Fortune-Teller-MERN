@@ -1,8 +1,8 @@
-require('./api/data/db.js');
+require('./public/api/data/db.js');
 var express = require('express');
 var path = require('path');
 var app = express();
-var routes = require('./api/routes');
+var routes = require('./public/api/routes');
 
 
 app.set('port', 8000);
