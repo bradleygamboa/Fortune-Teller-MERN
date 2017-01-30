@@ -6,7 +6,7 @@
 }
 
 header{
-	background-image: url("https://media.giphy.com/media/fV5FG8TpqGcso/giphy.gif");
+	background-image: url("../img/stars.gif");
 	opacity: .8;
 	font-size: 96px;
 	font-family: "FortuneTeller";
@@ -36,7 +36,7 @@ li{
 }
 
 .jumbotron{
-	background-image: url("https://media.giphy.com/media/fV5FG8TpqGcso/giphy.gif");
+	background-image: url("../img/stars.gif");
 	margin-bottom: 5px;
 	opacity: .8;
 }
