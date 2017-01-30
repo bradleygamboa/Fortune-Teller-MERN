@@ -1,6 +1,6 @@
 var mongoose = require('mongoose');
 
-var databaseUri = 'mongodb://bradley:gamboa@ds137139.mlab.com:37139/heroku_6k95mcbr';
+var databaseUri = 'mongodb://bradley:gamboa@ds131729.mlab.com:31729/fortuneteller';
 
 if (process.env.MONGODB_URI) {
     mongoose.connect(process.env.MONGODB_URI);
@@ -15,7 +15,7 @@ db.on('error', function(err) {
 });
 
 db.once('open', function() {
-    console.log('Mongoose connection successful.');
+    console.log('MongoDB connected to: ' + databaseUri);
 });
 
 //Bring in the models
