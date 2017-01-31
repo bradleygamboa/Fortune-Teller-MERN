@@ -4,8 +4,7 @@ var path = require('path');
 var app = express();
 var routes = require('./public/routes');
 
-
-app.set('port', 8000);
+app.set('port', process.env.PORT || 8080);
 
 app.use(function(req, res, next){
   console.log(req.method, req.url);
