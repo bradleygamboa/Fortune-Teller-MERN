@@ -1,8 +1,8 @@
-require('./public/api/data/db.js');
+require('./public/data/db.js');
 var express = require('express');
 var path = require('path');
 var app = express();
-var routes = require('./public/api/routes');
+var routes = require('./public/routes');
 
 
 app.set('port', 8000);
@@ -17,5 +17,5 @@ app.use(routes);
 
 var server = app.listen(app.get('port'), function(){
   var port = server.address().port;
-  console.log('Listening on port ' + port);
+  console.log('Listening on: ' + 'localhost:' + port);
 });
