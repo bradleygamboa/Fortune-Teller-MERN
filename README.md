@@ -2,7 +2,7 @@
 
 ### Development:
 #### Before you begin make sure you have an [Mlab](https://mlab.com/welcome/)
-#### Also make sure gulp and nodemon are installed globally.
+#### Also make sure GULP and NODEMON are installed globally.
 
 1. Clone repo
 2. Open your terminal and navigate to the project directory

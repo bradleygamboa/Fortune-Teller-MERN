@@ -1,8 +1,8 @@
-require('./public/data/db.js');
+require('./app/data/db.js');
 var express = require('express');
 var path = require('path');
 var app = express();
-var routes = require('./public/routes');
+var routes = require('./app/routes');
 
 app.set('port', process.env.PORT || 8080);
 
